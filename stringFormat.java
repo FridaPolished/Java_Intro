@@ -1,20 +1,20 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class stringFormat {
+// public class stringFormat {
 
-  public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    System.out.println("================================");
-    for (int i = 0; i < 3; i++) {
-      String s1 = sc.next();
-      int x = sc.nextInt();
-      // Complete this line
-      System.out.printf("%-15s%03d%n", s1, x);
-    }
-    System.out.println("================================");
-
-  }
-}
+//   public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     System.out.println("================================");
+//     for (int i = 0; i < 3; i++) {
+//       String s1 = sc.next();
+//       int x = sc.nextInt();
+//       // Complete this line
+//       System.out.printf("%-15s%03d%n", s1, x);
+//     }
+//     sc.close();
+//     System.out.println("================================");
+//   }
+// }
 
 // Sample Input
 
@@ -125,3 +125,68 @@ public class stringFormat {
 //     }
 
 // }
+
+
+// java.util.*;
+// import java.text.*;
+// import java.util.Locale;
+
+// public class Solution {
+
+//   public static void main(String[] args) {
+//     Scanner scanner = new Scanner(System.in);
+//     double payment = scanner.nextDouble();
+//     scanner.close();
+
+//     // Write your code here.
+
+//     Locale us_loc = new Locale("en", "US");
+//     Currency us = Currency.getInstance(us_loc);
+//     NumberFormat currencyFormatterUs = NumberFormat.getCurrencyInstance(us_loc);
+//     Locale india_loc = new Locale("en", "IN");
+//     NumberFormat currencyFormatterIn = NumberFormat.getCurrencyInstance(india_loc);
+//     Locale china_loc = new Locale("zh", "CN");
+//     NumberFormat currencyFormatterCh = NumberFormat.getCurrencyInstance(china_loc);
+//     Locale france_loc = new Locale("fr", "FR");
+//     NumberFormat currencyFormatterFr = NumberFormat.getCurrencyInstance(france_loc);
+
+//     System.out.println("US: " + currencyFormatterUs.format(payment));
+//     System.out.println("India: " + currencyFormatterIn.format(payment));
+//     System.out.println("China: " + currencyFormatterCh.format(payment));
+//     System.out.println("France: " + currencyFormatterFr.format(payment));
+//   }
+// }
+
+
+
+// import java.io.*;
+// import java.util.*;
+// import java.text.*;
+// import java.math.*;
+// import java.util.regex.*;
+
+// public class Solution {
+
+//   // Write your code here
+//   static Scanner sc = new Scanner(System.in);
+//   static boolean flag = true;
+//   static int B = sc.nextInt();
+//   static int H = sc.nextInt();
+
+//   static {
+//         try{
+//             if(B <= 0 || H <= 0){
+//                 flag = false;
+//                 throw new Exception("Breadth and height must be positive");
+//             }
+//         } catch(Exception e){
+//             System.out.println(e);
+//         }
+//     }
+
+// public static void main(String[] args){
+
+
+
+  ///=========================================================
+  ///String related exercises
