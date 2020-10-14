@@ -190,3 +190,69 @@
 
   ///=========================================================
   ///String related exercises
+  // import java.util.Scanner;
+
+  // public class Solution {
+
+  //   static boolean isAnagram(String a, String b) {
+  //       // Complete the function
+  //       java.util.Map<Character, Integer> counter = new java.util.HashMap<>();
+  //       for(int i = 0; i < a.length(); i++){
+  //           char curChar = a.charAt(i);
+  //           curChar = Character.toLowerCase(curChar);
+  //           if(counter.containsKey(curChar)){
+  //               int val =  counter.get(curChar);
+  //               counter.put(curChar, val + 1);
+  //           } else {
+  //               counter.put(curChar, 1);
+  //           }
+  //       }
+  //       // System.out.println(counter);
+
+  //       for(int j = 0; j < b.length(); j++){
+  //           char curChar2 = b.charAt(j);
+  //           curChar2 = Character.toLowerCase(curChar2);
+  //           if(counter.containsKey(curChar2)){
+  //               int val2 = counter.get(curChar2);
+  //               counter.put(curChar2, val2 - 1);
+  //               if(counter.get(curChar2) == 0){
+  //                   counter.remove(curChar2);
+  //               }
+  //           } else {
+  //               return false;
+  //           }
+  //       }
+  //       // System.out.println(counter.values());
+  //       boolean res = counter.size() == 0;
+  //       return res;
+  //       // return true;
+  //   }
+
+  // public static void main(String[] args) {
+
+
+  //   import java.io.*;
+  // import java.util.*;
+
+  // public class Solution {
+
+  //   public static void main(String[] args) {
+  //     Scanner scan = new Scanner(System.in);
+  //     String s = scan.nextLine();
+  //     // Write your code here.
+  //     if (s.trim().length() == 0 || s.trim().length() > 400000) {
+  //       System.out.println(0);
+  //       // System.println(s.trim().length());
+  //       return;
+  //     }
+
+  //     String[] tokens = s.trim().split("[!,?._'@\\s]+");
+  //     System.out.println(tokens.length);
+
+  //     for (String temp : tokens) {
+  //       System.out.println(temp);
+  //     }
+
+  //     scan.close();
+  //   }
+  }
